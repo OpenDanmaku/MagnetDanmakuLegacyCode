@@ -1,0 +1,16 @@
+{
+  "db": "magnetdb://localhost:2333",
+  "server": {
+    "port": 3000,
+    "address": "0.0.0.0"
+  },
+  "accessControl": {
+    "allowOrigin": "*",
+    "allowMethods": "GET,POST,PUT,DELETE,HEAD,OPTIONS",
+    "allowCredentials": false
+  },
+  "dbOptions": {
+  },
+  "humanReadableOutput": true,
+  "urlPrefix": ""
+}

@@ -1,0 +1,31 @@
+{
+  "name": "magnet-danmaku",
+  "version": "0.0.1",
+  "description": "A P2P Danmaku Publishing & Storage Solution Based on MagnetDB",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine-node ./ --verbose --captureExceptions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OpenDanmaku/MagnetDanmaku.git"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "bin": {
+    "magnet-danmaku": "./bin/magnet-danmaku"
+  },
+  "engines": {
+    "node": ">= 0.10.24"
+  },
+  "bugs": {
+    "url": "https://github.com/OpenDanmaku/MagnetDanmaku/issues"
+  },
+  "homepage": "https://github.com/OpenDanmaku/MagnetDanmaku",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "express": "^4.4.5",
+    "multer": "^1.0.3"
+  }
+}
